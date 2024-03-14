@@ -1,0 +1,103 @@
+/* LENIS--------------------------------------------------------- */
+html.lenis {
+    height: auto;
+  }
+  
+  .lenis.lenis-smooth {
+    scroll-behavior: auto !important;
+  }
+  
+  .lenis.lenis-smooth [data-lenis-prevent] {
+    overscroll-behavior: contain;
+  }
+  
+  .lenis.lenis-stopped {
+    overflow: hidden;
+  }
+  
+  .lenis.lenis-scrolling iframe {
+    pointer-events: none;
+  }
+
+/* FONT--------------------------------------------------------- */
+
+@font-face {
+    font-family:'ClashMedium';
+    src: url(font/clashdisplay/ClashDisplay-Medium.woff2);
+    font-weight: medium;
+}
+@font-face {
+    font-family:'ClashSemiBold';
+    src: url(font/clashdisplay/ClashDisplay-Semibold.woff2);
+    font-weight: bold;
+}
+@font-face {
+    font-family:'SatoshiMedium';
+    src: url(font/satoshi/Satoshi-Medium.woff2);
+    font-weight: medium;
+}
+
+/* ALL--------------------------------------------------------- */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --black: #141515;
+    --white: #F5FFFA;
+    --green: #24985E;
+}
+
+html {
+    background-color: var(--black);
+}
+
+body {
+    color: var(--white);
+    text-transform: uppercase;
+}
+
+/* HEADER----------------------------------- */
+
+.header {
+    color: var(--white);
+    font-family: 'ClashMedium';
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    font-size: xx-large;
+
+}
+
+li {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  color: var(--white);
+}
+
+.accueil {
+    mix-blend-mode: difference;
+    position: fixed;
+    top: 0.5rem;
+    font-size: 2em;
+    text-transform: uppercase;
+    display: flex;
+    width: 100%;
+}
+
+.mail-size {
+  width: 100px ;
+  height: 100px ;
+}
+
+.mail-size img {
+  object-fit: cover;
+  width: 100%;
+  height: 100%;
+}
