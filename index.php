@@ -26,20 +26,20 @@
     </div>
 
     <div class="arrow">
-    
+    <p id="arrow-scroll"></p>
         <img src="img/arrow-down.svg" alt="flèche vers le bas">
         
         </div>
-        <p id="arrow-scroll"></p>
-    
-<div class="leca">ekjalguyea</div>
 
+    <div class="img-text">
+        <img src="img/MacBook Pro 14_ - 15.png" alt="" srcset="">
+        </div>
        
   <?php
  include 'footer.php';
  ?>
 
- aa
+
     <script src="https://unpkg.com/@studio-freight/lenis@1.0.39/dist/lenis.min.js"></script> 
     <script src="script/script.js"></script>
 
