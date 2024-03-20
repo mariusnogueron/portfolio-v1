@@ -111,7 +111,6 @@ a {
   color: var(--white);
   font-size: 4.3em;
   display: flex;
-  overflow-x: hidden;
 }
 
 .star {
@@ -132,20 +131,20 @@ a {
 
 .arrow {
   display: flex;
-  min-height: 60svh;
-  justify-content: center;
-  position: relative;
-  width: 100%;
+    justify-content: center;
+    position: relative;
+    width: 100%;
+    align-items: center;
+    min-height: 50svh;
 }
 
-#arrow-scroll {
-  position: absolute;
-  bottom: 190px;
-}
 
-#arrow-scroll img{
+ .img-text-center {
+
+ }
+
+.test{
   position: absolute;
-  top: 161px;
 }
 
 p {
