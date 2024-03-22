@@ -146,6 +146,8 @@ a {
 .text-sentence {
   text-transform: uppercase;
   font-family: 'ClashMedium';
+  text-align: justify;
+    font-size: xx-large;
 }
 
 .test{
