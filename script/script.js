@@ -26,5 +26,11 @@ for (let i = 0; i < str.length; i++) {
 }
 
 
+document.addEventListener( 'DOMContentLoaded', function() {
+   var splide = new Splide( '.splide', {
+      perPage:1.5
+   } );
+   splide.mount();
+ } );
 
 

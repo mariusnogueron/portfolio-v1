@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
+    <link href="https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1.4/dist/css/splide.min.css" rel="stylesheet">
     <title>Document</title>
 </head>
     <body>
@@ -15,11 +16,6 @@
             <li>
              <a href="#">réalisations</a>
          </li>
- 
-         <div class="mail-size">
-             <a href="#">
-                 <img src="img/mail.png" alt="logo de mail">
-             </a>
              </div>
              </nav>
     
@@ -56,14 +52,120 @@
 
     <div class="realisations-accueil">réalisations</div>
 
-        <div class="projects">
             <div class="projects-type-selection">
-
+                <ul class="flex-realisations">
+                    <li>web</li>
+                    <li>art</li>
+                </ul>
             </div>
-        </div>
 
+
+
+
+            
+
+            <!-- <div class="projects">
+                <section class="splide" aria-label="Splide Basic HTML Example">
+                    <div class="splide__track">
+                          <ul class="splide__list">
+                              <li class="splide__slide">Slide 01</li>
+                              <li class="splide__slide">Slide 02</li>
+                              <li class="splide__slide">Slide 03</li>
+                          </ul>
+                    </div>
+                  </section>
+                <div class="show-preview-projects">
+                    <div class="img-preview-projects">
+                        <img src="img/MacBook Pro 14_ - 15.png" alt="" srcset="">
+                    </div>
+                        <div class="text-preview-projects">
+                            <ul id="flex-preview-subject">
+                                <li>Titre sujet</li>
+                                <li>Sujet</li>
+                                <li>Date</li>
+                            </ul>
+                        </div>
+                </div>
+        </div> -->
+
+
+
+
+
+
+
+
+        
+        <div class="projects">
+            <section class="splide">
+                <div class="splide__arrows">
+                    <button class="splide__arrow splide__arrow--prev">
+                        Prev
+                    </button>
+                    <button class="splide__arrow splide__arrow--next">
+                        Next
+                    </button>
+              </div>
+                <div class="splide__track">
+                    <ul class="splide__list">
+                        <li class="splide__slide">
+                            <div class="show-preview-projects">
+                                <div class="img-preview-projects">
+                                    <img src="img/MacBook Pro 14_ - 15.png" alt="" srcset="">
+                                </div>
+                                <div class="text-preview-projects">
+                                    <ul id="flex-preview-subject">
+                                        <li>Titre sujet</li>
+                                        <li>Sujet</li>
+                                        <li>Date</li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="splide__slide"><div class="show-preview-projects">
+                            <div class="img-preview-projects">
+                                <img src="img/MacBook Pro 14_ - 15.png" alt="" srcset="">
+                            </div>
+                            <div class="text-preview-projects">
+                                <ul id="flex-preview-subject">
+                                    <li>Titre sujet</li>
+                                    <li>Sujet</li>
+                                    <li>Date</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </li></li>
+                        <li class="splide__slide"><div class="show-preview-projects">
+                            <div class="img-preview-projects">
+                                <img src="img/MacBook Pro 14_ - 15.png" alt="" srcset="">
+                            </div>
+                            <div class="text-preview-projects">
+                                <ul id="flex-preview-subject">
+                                    <li>Titre sujet</li>
+                                    <li>Sujet</li>
+                                    <li>Date</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </li></li>
+                    </ul>
+                </div>
+            </section>
+        </div>
+        
+
+
+
+
+
+            <div class="projects-type-selection">
+                            <ul class="flex-realisations">
+                                <li>image</li>
+                                <li>liste</li>
+                            </ul>
+                        </div>
     <script src="https://unpkg.com/@studio-freight/lenis@1.0.39/dist/lenis.min.js"></script> 
     <script src="script/script.js"></script>
-
+    <script src="https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1.4/dist/js/splide.min.js"></script>
 </body>
 </html>
