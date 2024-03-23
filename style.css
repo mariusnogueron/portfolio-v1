@@ -116,6 +116,7 @@ a {
 
 .star {
   display: flex;
+  overflow-x: hidden;
 }
 
 .job {
@@ -174,6 +175,7 @@ a {
   text-align: end;
   font-size: 7.1svw;
   overflow-x: hidden;
+  min-height: 50svh;
 }
 
 .text-sentence p {
@@ -254,6 +256,18 @@ a {
   transform-origin: 0px 74px;
   transform-style: flat;
   font-family: 'ClashMedium' ;
+}
+
+/* REALISATIONS SECTION------------------------------------------------------------------------ */
+
+.realisations-accueil {
+  text-transform: uppercase;
+  font-family: 'ClashMedium';
+  color: var(--white);
+  display: flex;
+  justify-content: center;
+  font-size: 14vw;
+  overflow-x: hidden;
 }
 
 }
