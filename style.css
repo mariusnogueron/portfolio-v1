@@ -139,22 +139,90 @@ a {
 }
 
 
-.text-color {
-  color: var(--green)
+.text-spacing-color {
+  color: var(--green);
+}
+
+.text-spacing-color1{
+  padding-left: 10svw;
+  color: var(--green);
+}
+
+.text-spacing-effect1 {
+  padding-left: 6svw;
+}
+
+.text-spacing-effect2 {
+  padding-left: 12svw;
+}
+
+.text-spacing-effect3 {
+  padding-left: 12svw;
+}
+
+.text-spacing-effect4 {
+  padding-right: 3svw;
+}
+
+.text-spacing-effect5 {
+  padding-left: 10svw;
 }
 
 .text-sentence {
-  text-transform: uppercase;
   font-family: 'ClashMedium';
-  text-align: justify;
-    font-size: xx-large;
+  text-align: end;
+  font-size: 7.1svw;
+  overflow-x: hidden;
 }
+
+.text-sentence p {
+  text-transform: uppercase;
+  display: flex;
+  justify-content: space-between;
+}
+
+
+
+.text-sentence p:nth-child(1) {
+  justify-content: end;
+}
+
+.text-sentence p:nth-child(2) {
+  justify-content: space-between;
+}
+
+.text-sentence p:nth-child(3) {
+  justify-content: end;
+}
+
+.text-sentence p:nth-child(4) {
+  justify-content: end;
+}
+
+.text-sentence p:nth-child(5) {
+  justify-content: end;
+}
+
+.text-sentence p:nth-child(6) {
+  justify-content: end;
+}
+
+.text-sentence p:nth-child(7) {
+  justify-content: end;
+}
+
+.text-sentence p:nth-child(8) {
+  justify-content: end;
+}
+
+
 
 .test{
   position: absolute;
 }
 
-p {
+
+#arrow-scroll {
   height: 152px;
   width: 300px;
   position: relative;
