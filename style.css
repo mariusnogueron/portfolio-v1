@@ -269,6 +269,7 @@ a {
   justify-content: center;
   font-size: 14vw;
   overflow-x: hidden;
+  min-height: 16svh;
 }
 
 .flex-realisations {
@@ -276,8 +277,7 @@ a {
   justify-content: space-between;
   font-family: 'ClashMedium' ;
   text-transform: uppercase;
-  margin-top: 30px;
-  font-size: 2em;
+  font-size: 1.3em;
   padding: 10px;
 }
 
@@ -287,6 +287,16 @@ a {
   display: flex;
     justify-content: center;
     align-items: center;
+    border-radius: 10px;
+}
+
+.projects-1 {
+  height: 50svh;
+  background-color: #fff;
+  display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url(img/gros.png);
 }
 
 .show-preview-projects {
@@ -294,13 +304,18 @@ a {
   justify-content: center;
   align-items: center;
   background-color: black;
-  width: 56%;
-  height: 84%;
   border-radius: 5px;
   flex-direction: column;
+  height: 41svh;
+    width: 29svh;
 
 }
 
+.img-preview-projects,
+.text-preview-projects {
+  flex-grow: 1; 
+  width:  100%;
+}
 .img-preview-projects {
   display: flex;
   width: 10svh;
@@ -313,6 +328,7 @@ a {
   object-fit: cover;
 }
 
+
 .text-preview-projects {
   display: flex;
   font-family: 'ClashMedium';
@@ -324,18 +340,25 @@ a {
 gap: 10px;
 display: flex;
 flex-direction: column;
-justify-content: ;
+justify-content: end;
 }
 
-.img-preview-projects,
-.text-preview-projects {
-  flex: 1; /* Fait en sorte que les éléments prennent le même espace */
-  width: 100%;
-}
+/* SPLIDE------------------------------------------------ */
 
+/* Ajoutez ces styles CSS pour ajuster l'affichage */
+.splide__slide {
+
+  display: flex;
+  justify-content: center;
+}
 .splide__arrow--prev,
 .splide__arrow--next {
     display: none !important;
+}
+
+
+#splide01 {
+  padding: 10px !important;
 }
 
 }
