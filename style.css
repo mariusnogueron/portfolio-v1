@@ -121,7 +121,7 @@ a {
 
 .star {
   display: flex;
-  overflow-x: hidden;
+  overflow: hidden;
 }
 
 .job {
@@ -294,7 +294,7 @@ a {
 
 .projects {
   height: 69svh;
-  background-color: #fff;
+  background-color: #141515;
   display: flex;
     justify-content: center;
     align-items: center;
@@ -314,11 +314,11 @@ a {
   display: flex;
   justify-content: center;
   align-items: center;
-  background-color: black;
+  background-color: #141515;
   border-radius: 5px;
   flex-direction: column;
   height: 68svh;
-    width: 43svh;
+    width: 37svh;
 
 }
 
@@ -332,7 +332,7 @@ a {
   margin: 10px;
   border: 3px solid var(--white);
   border-radius: 5px;
-  width: 41svh;
+  width: 36svh;
   justify-content: center;
   align-items: center;
 }
@@ -349,9 +349,9 @@ a {
     height: 60px;
     position: absolute;
     background: #141515;
+    border-radius: 5px;
     background-color: rgba(0, 0, 0, 0.5);
 }
-
 
 .text-preview-projects {
   display: flex;
