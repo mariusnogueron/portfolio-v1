@@ -25,6 +25,7 @@ for (let i = 0; i < str.length; i++) {
 document.addEventListener( 'DOMContentLoaded', function() {
    var splide = new Splide( '.splide', {
       type:'loop',
+      
    } );
    splide.mount();
  } );

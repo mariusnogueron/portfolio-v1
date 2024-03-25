@@ -58,10 +58,12 @@ html.lenis {
 
 html {
     background-color: var(--black);
+    
 }
 
 body {
     color: var(--white);
+    scroll-behavior: smooth;
     
 }
 
@@ -141,6 +143,15 @@ a {
   display: flex;
     justify-content: center;
     position: relative;
+    width: 100%;
+    align-items: center;
+    min-height: 50svh;
+}
+
+.arrow-2 {
+  display: flex;
+    justify-content: center;
+    position: absolute;
     width: 100%;
     align-items: center;
     min-height: 50svh;
@@ -345,12 +356,16 @@ a {
 }
 
 .img-arrow{
-  width: 60px;
-    height: 60px;
-    position: absolute;
+  display: flex;
+  justify-content: center;
+  position: absolute;
+  font-size: 2em;
+  text-transform: uppercase;
+  font-family: 'ClashMedium';
     background: #141515;
+    padding: 10px;
     border-radius: 5px;
-    background-color: rgba(0, 0, 0, 0.5);
+    /* background-color: rgba(0, 0, 0, 0.5); */
 }
 
 .text-preview-projects {
@@ -383,15 +398,13 @@ justify-content: space-evenly;
 
 /* Ajoutez ces styles CSS pour ajuster l'affichage */
 .splide__slide {
-
   display: flex;
   justify-content: center;
 }
-.splide__arrow--prev,
-.splide__arrow--next {
-    display: none !important;
-}
 
+.splide__pagination__page.is-active {
+  background: #24985E !important;
+}
 
 #splide01 {
   padding: 10px !important;
