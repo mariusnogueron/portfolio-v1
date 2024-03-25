@@ -48,6 +48,7 @@ html.lenis {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    box-shadow: 0 0 0 3px red inset;
 }
 
 :root {
@@ -343,7 +344,8 @@ a {
   margin: 10px;
   border: 3px solid var(--white);
   border-radius: 5px;
-  width: 36svh;
+  width: 37svh;
+  height: 0;
   justify-content: center;
   align-items: center;
 }
@@ -365,7 +367,7 @@ a {
     background: #141515;
     padding: 10px;
     border-radius: 5px;
-    /* background-color: rgba(0, 0, 0, 0.5); */
+    background-color: rgba(0, 0, 0, 0.5);
 }
 
 .text-preview-projects {
@@ -376,12 +378,13 @@ a {
 }
 
 #flex-preview-subject {      
-gap: 10px;
-display: flex;
-flex-direction: column;
-justify-content: space-between;
-font-size: 4.5svh;
-justify-content: space-evenly;
+  gap: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  font-size: 4.5svh;
+  align-items: center;
+  text-align: center;
 }
 
 #flex-preview-subject li:nth-child(2){      
