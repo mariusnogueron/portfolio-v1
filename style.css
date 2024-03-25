@@ -340,11 +340,10 @@ a {
 }
 .img-preview-projects {
   display: flex;
-  margin: 10px;
   border: 3px solid var(--white);
   border-radius: 5px;
   width: 37svh;
-  height: 0;
+  height: 13svh;
   justify-content: center;
   align-items: center;
 }
