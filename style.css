@@ -27,6 +27,11 @@ html.lenis {
     font-weight: medium;
 }
 @font-face {
+  font-family:'ClashRegular';
+  src: url(font/clashdisplay/ClashDisplay-Regular.woff2);
+  font-weight: medium;
+}
+@font-face {
     font-family:'ClashSemiBold';
     src: url(font/clashdisplay/ClashDisplay-Semibold.woff2);
     font-weight: bold;
@@ -281,8 +286,14 @@ a {
   padding: 10px;
 }
 
+.flex-realisations li {
+  border: 1px solid var(--white);
+  border-radius: 10px;
+  padding: 5px;
+}
+
 .projects {
-  height: 50svh;
+  height: 69svh;
   background-color: #fff;
   display: flex;
     justify-content: center;
@@ -306,8 +317,8 @@ a {
   background-color: black;
   border-radius: 5px;
   flex-direction: column;
-  height: 41svh;
-    width: 29svh;
+  height: 68svh;
+    width: 43svh;
 
 }
 
@@ -318,14 +329,27 @@ a {
 }
 .img-preview-projects {
   display: flex;
-  width: 10svh;
-  border: 2px dashed blue;
+  margin: 10px;
+  border: 3px solid var(--white);
+  border-radius: 5px;
+  width: 41svh;
+  justify-content: center;
+  align-items: center;
 }
 
 .img-preview-projects img{
   width: 100%;
   height: 100%;
   object-fit: cover;
+
+}
+
+.img-arrow{
+  width: 60px;
+    height: 60px;
+    position: absolute;
+    background: #141515;
+    background-color: rgba(0, 0, 0, 0.5);
 }
 
 
@@ -340,8 +364,20 @@ a {
 gap: 10px;
 display: flex;
 flex-direction: column;
-justify-content: end;
+justify-content: space-between;
+font-size: 4.5svh;
+justify-content: space-evenly;
 }
+
+#flex-preview-subject li:nth-child(2){      
+  font-size: 3svh;
+  font-family: 'ClashRegular';
+  }
+  
+#flex-preview-subject li:nth-child(3){      
+    font-size: 3svh;
+    font-family: 'ClashRegular';
+    }
 
 /* SPLIDE------------------------------------------------ */
 
